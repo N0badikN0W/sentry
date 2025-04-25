@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img
+{
+    width: 550px;
+    height: 200px;
+}
+a
+{
+    text-decoration: none;
+    color: orangered;
+    transition: color 0.3;
+}
+.navBar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+.navList
+{
+    list-style: none;
+    display: flex;
+    gap: 43%;
+}
+li
+{
+    display: inline;
+}
+nav
+{
+    background-color: black;
+    height: 1px;
+}
+footer
+{
+    color: orangered;
+}
+.showcase 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product
+{
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.product img 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
